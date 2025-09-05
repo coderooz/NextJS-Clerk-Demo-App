@@ -1,0 +1,45 @@
+{
+    "editor.formatOnSave": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.codeLens": false,
+    "editor.autoIndent": "full",
+    "editor.autoIndentOnPaste": true,
+    "editor.autoIndentOnPasteWithinString": true,
+    "editor.trimAutoWhitespace": true,
+    "files.autoSave": "onWindowChange",
+    "files.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/.next": true,
+        "**/.clerk": true,
+        "**/.vercel": true
+    },
+    "javascript.validate.enable": false,
+    "typescript.validate.enable": false,
+    "prettier.enable": false,
+    "prettier.requireConfig": true,
+    "workbench.localHistory.enabled": true,
+    "markdown.links.openLocation": "currentGroup",
+    "markdown.preview.scrollEditorWithPreview": true,
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "wolf.logErrors": true,
+    "[git-commit]": {
+        "editor.rulers": [
+            50,
+            72
+        ],
+        "editor.wordWrap": "off",
+        "workbench.editor.restoreViewState": false
+    },
+    "[javascript]": {
+        "editor.maxTokenizationLineLength": 2500
+    },
+    "typescript.format.enable": true,
+    "extensions.ignoreRecommendations": true,
+    "extensions.closeExtensionDetailsOnViewChange": true,
+    "extensions.experimental.deferredStartupFinishedActivation": true
+}
